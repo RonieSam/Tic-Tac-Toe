@@ -1,0 +1,61 @@
+body{
+  background-color: black;
+}
+
+.heading{
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+}
+.play-button{
+  height:200px;
+  width:200px;
+  border-color: white;
+  background-color: black;
+  border-width: 2px;
+  border-radius: 100px;
+  margin:30px;
+  transition: background-color 0.75s;
+
+}
+.play-button:hover{
+  background-color: white;
+  transition: background-color 0.75s;
+}
+
+.button-image{
+  height:100px
+}
+
+.score{
+  margin-top:20px;
+  color: white;
+  font-size: 25px;
+  margin-bottom:20px;
+}
+
+.general-button{
+  height:30px;
+  font-size:20px;
+  margin:20px;
+  border-color: white;
+  background-color: black;
+  color: white;
+  transition: background-color 0.75s;
+  border-radius: 3px;
+
+}
+.general-button:hover{
+  background-color: white;
+  color: black;
+  transition: background-color 0.75s;
+
+}
+.played{
+  color:white;
+  font-size: 25px;
+}
+.display-images{
+  height:60px;
+  top:auto;
+  bottom:auto;
+}

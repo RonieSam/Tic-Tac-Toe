@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+  <title>
+    RPS
+  </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 class="heading">ROCK PAPER SCISSORS</h1>
+  <button class="play-button" onclick="play('rock')"><img src="images/rock.png" class="button-image"></button>
+  <button class="play-button" onclick="play('paper')"><img src="images/paper.png" class="button-image"></button>
+  <button class="play-button" onclick="play('scissor')"><img src="images/scissor.png" class="button-image"></button>
+  <div class="played"></div>
+  <div class="score">
+    Win:<span class="win">0</span>&nbsp&nbsp Loss:<span class="loss">0</span>&nbsp&nbsp Ties:<span class="ties">0</span>
+  </div>
+  <button id="reset" class="general-button" onclick="reset()">Reset Score</button><button id="autoplay" class="general-button" onclick="autoplay()">AutoPlay</button>
+  <script src="index.js"></script>
+
+</body>
